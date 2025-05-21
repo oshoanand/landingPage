@@ -16,6 +16,10 @@
 # next.js
 /.next/
 /out/
+/docs
+/.idx
+/.vscode
+
 
 # production
 /build
