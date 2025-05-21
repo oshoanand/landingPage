@@ -1,4 +1,4 @@
-export type SiteConfig = typeof siteConfig
+export type SiteConfig = typeof siteConfig;
 
 const thirtyDaysFromNow = new Date();
 thirtyDaysFromNow.setDate(thirtyDaysFromNow.getDate() + 30);
@@ -14,5 +14,6 @@ export const siteConfig = {
     github: "https://github.com/example",
     linkedin: "https://linkedin.com/company/example",
   },
-  websiteTeaser: "We're building something extraordinary. Discover a new way to [your website's core value proposition]. Sign up for updates and be the first to know when we launch!"
-}
+  websiteTeaser:
+    "Мы создаем нечто необычное. Подпишитесь на обновления и будьте первыми, кто узнает о запуске!",
+};
