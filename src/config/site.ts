@@ -4,7 +4,7 @@ const thirtyDaysFromNow = new Date();
 thirtyDaysFromNow.setDate(thirtyDaysFromNow.getDate() + 30);
 
 export const siteConfig = {
-  name: "Launchpad",
+  name: "Eventomir",
   description:
     "Our innovative platform is launching soon! Get ready for something amazing.",
   launchDate: thirtyDaysFromNow, // Set your target launch date here
